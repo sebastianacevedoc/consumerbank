@@ -8,11 +8,6 @@
     <url>http://maven.apache.org</url> 
     
     <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <name>Repositorio de release</name>
-            <url>http://localhost:8080/repository/releases/</url>
-        </repository>
         <snapshotRepository>
             <id>test</id>
             <name>testsnap</name>
@@ -23,8 +18,8 @@
         <connection>
             scm:git:https://github.com/sebastianacevedoc/consumerbank.git
         </connection>
-      <tag>consumerbank-1.0</tag>
-  </scm>
+        <tag>consumerbank-1.0</tag>
+    </scm>
     <build>
         <plugins>
             <plugin>
