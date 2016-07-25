@@ -3,7 +3,7 @@
     <groupId>com.companyname.bank</groupId>
     <artifactId>consumerbank</artifactId>
     <packaging>jar</packaging>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
     <name>consumerbank</name>
     <url>http://maven.apache.org</url> 
     
@@ -24,7 +24,8 @@
         <connection>scm:git:git@github.com:sebastianacevedoc/consumerbank.git</connection>
         <url>scm:git:git@github.com:sebastianacevedoc/consumerbank.git</url>
         <developerConnection>scm:git:git@github.com:sebastianacevedoc/consumerbank.git</developerConnection>
-    </scm>
+      <tag>consumerbank-1.2</tag>
+  </scm>
     
     <build>
         <plugins>
