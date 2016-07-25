@@ -35,7 +35,9 @@
             </plugin>
         </plugins>
     </build>
-    
+    <properties>
+        <github.global.server>github</github.global.server>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
