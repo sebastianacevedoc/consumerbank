@@ -21,10 +21,7 @@
     </distributionManagement>
     
     <scm>
-        <connection>scm:git:git@github.com:sebastianacevedoc/consumerbank.git</connection>
-        <url>scm:git:git@github.com:sebastianacevedoc/consumerbank.git</url>
-        <developerConnection>scm:git:git@github.com:sebastianacevedoc/consumerbank.git</developerConnection>
-      <tag>consumerbank-1.2</tag>
+        <developerConnection>scm:git:https://github.com/sebastianacevedoc/consumerbank.git</developerConnection>
   </scm>
     
     <build>
@@ -37,7 +34,7 @@
         </plugins> 
     </build>
     <properties>
-        <github.global.server>github</github.global.server>
+        <project.scm.id>git</project.scm.id>
     </properties>
     <dependencies>
         <dependency>
