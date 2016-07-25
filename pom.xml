@@ -32,7 +32,7 @@
                 <version>2.5.3</version>
             </plugin>
         </plugins> 
-    </build>
+    </build> 
     <properties>
         <project.scm.id>git</project.scm.id>
     </properties>
